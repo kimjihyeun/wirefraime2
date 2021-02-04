@@ -21,3 +21,5 @@ ul,li{list-style:none;}
 a {color:#444;text-decoration:none;}
 
 header,main,section,footer {display:block;}
+
+.hide{display:none;}
