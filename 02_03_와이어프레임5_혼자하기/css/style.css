@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#wrapper {width:100%;height:700px;background:#aae}
+
+#wrapper #header {z-index:3;position: relative;width:100%;height:100px;margin:0 auto;background:#eaa}
+#wrapper #header .wrap {width:1200px;height:100px;margin:0 auto;background:#eea}
+#wrapper #header .wrap .content {width:100%;height:100%;background: #aac;}
+#wrapper #header .wrap .content .left-box  {float:left;width:200px;height:100%;background:#aad;}
+#wrapper #header .wrap .content .right-box {float:left;width:1000px;height:100%;background:#daa;}
+/* 네비게이션 */
+/* #wrapper #header .wrap .content .right-box #nav {text-align:right;background: #0000aa;padding: 25px 25px 25px 0;} */
+/* #wrapper #header .wrap .content .right-box #nav {text-align:right;background: #0000aa;margin:25px 25px 25px 0;} */
+/* #wrapper #header .wrap .content .right-box #nav {width: 720px;text-align:right;background: #0000aa;margin:25px auto 25px auto;} 가운데정렬 */
+/* #wrapper #header .wrap .content .right-box #nav {width: 720px;text-align:right;background: #0000aa;margin:25px auto 25px 0;}왼쪽정렬 */
+/* #wrapper #header .wrap .content .right-box #nav {width: 720px;text-align:right;background: #0000aa;margin:25px 0 25px auto;}오른쪽정렬 */
+#wrapper #header .wrap .content .right-box #nav {width:auto;text-align:right;background: #0000aa;margin:25px 25px 25px 0;} /* 오른쪽을 25띄운다 */
+#wrapper #header .wrap .content .right-box #nav > ul {background: #baa;display:inline-block;}
+#wrapper #header .wrap .content .right-box #nav > ul >li{float:left;background: #99c;width: 180px;text-align: center;}
+#wrapper #header .wrap .content .right-box #nav > ul >li > a{display: block;background: #f0f0f0;color: #000;line-height: 50px;}
+#wrapper #header .wrap .content .right-box #nav > ul >li > a:hover{background: #333;color: #fff;}
+
+/* 서브메뉴 */
+#wrapper #header .wrap .content .right-box #nav > ul >li .sub {text-align: center;width: 100%;display: none;}
+#wrapper #header .wrap .content .right-box #nav:hover > ul >li .sub {display:block;}
+#wrapper #header .wrap .content .right-box #nav > ul >li .sub ul {width: :100%;}
+#wrapper #header .wrap .content .right-box #nav > ul >li .sub ul  li {width: :100%;}
+#wrapper #header .wrap .content .right-box #nav > ul >li .sub ul  li a {display: block;background: #f6f6f6; line-height: 45px;}
+#wrapper #header .wrap .content .right-box #nav > ul >li .sub ul  li a:hover {background: #b6b6f6;}
+
+
+#wrapper #main {z-index:2;position:relative;width:1200px;height:500px;background:#caa;margin:0 auto;}
+#wrapper #main .section1 {width:100%;height:300px;background:#aca;}
+#wrapper #main .section2 {width:100%;height:200px;background:#aff;}
+#wrapper #main .section2 .content {width:100%;height:100%;}
+#wrapper #main .section2 .content .left-box   {float:left;width:33.333%;height:200px;background:#acc;}
+#wrapper #main .section2 .content .center-box {float:left;width:33.333%;height:200px;background:#cca;}
+#wrapper #main .section2 .content .right-box  {float:left;width:33.333%;height:200px;background:#cac;}
+
+#wrapper #footer {z-index:1;position:relative;width:100%;height:100px;background: #acc;margin:0 auto}
+#wrapper #footer .wrap {width:1200px;height:100px;margin:0 auto;background:#eae}
+#wrapper #footer .wrap .content {width:100%;height:100%;}
+#wrapper #footer .wrap .content .left-box  {float:left;width:200px;height:100%;background:#caa;}
+#wrapper #footer .wrap .content .right-box {float:left;width:1000px;height:100%;background:#aab;}
+#wrapper #footer .wrap .content .right-box .up-box {width:100%;height:50%;background:#cca;}
+#wrapper #footer .wrap .content .right-box .down-box {width:100%;height:50%;background:#bab;}
+
